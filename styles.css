@@ -1,4 +1,16 @@
-body {
+h1, p, ul {
+  margin: 1em auto;
+  text-align: center;
+  list-style-position: inside;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.description {
+  font-style: italic;
+}
+
+
+/* body {
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -73,4 +85,4 @@ input[type="file"] {
 
 a {
     color:#dfdfe2;
-  }
+  } */
