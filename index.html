@@ -13,9 +13,9 @@
       <header class="header">
         <h1 id="title">Plan Your Capitol Bikeshare Trip!</h1>
         <p id="description"><i>Stop <strong>guessing</strong> when it comes to bikeshares.</i></p>
-        <p id="description" class="description">Plan ahead to find available bikes, open docks, and more!</p>
+        <p id="description" class="description">Maxium Bikelihood (MBH) lets you <strong>plan ahead</strong> to find available bikes, open docks, and more!</p>
         <div class="container">
-          <p id="stringer">But don't stop there:</p>
+          <h2 id="stringer">But don't stop there!</h2>
           <ul>
             <li id="secondary_features">Organize for more bikes or docks at your favorite stations!</li>
             <li id="secondary_features">Demand bike lanes for the most dangerous part of your trip!</li>
@@ -26,8 +26,11 @@
     <div class="container">
       <form class="form" id="survey-form">
         <fieldset>
-          <label for="origin">Where are you starting from? <input id="origin" name="origin" type="text" required /></label>
-          <label for="destination">Where are you going? <input id="destination" name="destination" type="text" required /></label>
+          <label for="origin">Where are you starting from? <input id="origin" name="origin" type="text" required ></label>
+          <label for="destination">Where are you going? <input id="destination" name="destination" type="text" required ></label>
+          <label for="name" id="name-label">What's your Capitol Bikeshare Username? <input id="name" name="name" type="text" required placeholder="Your name..." ></label>
+          <label for="email" id="email-label">What's your email address? <input id="email" name="email" type="email" required placeholder="Your email..."></label>
+          <label for="number" id="number-label">What's your phone number? <input id="number" name="number" type="number" required min="10" max="12" placeholder="Your number..."></label>
         </fieldset>
       </form>
     </div>

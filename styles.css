@@ -1,4 +1,4 @@
-h1, p, ul {
+h1, h2, p, ul {
   margin: 1em auto;
   text-align: center;
   list-style-position: inside;
@@ -22,8 +22,6 @@ input {
     padding: 2px;
     
   }
-
-label 
 
 /* body {
   width: 100%;
