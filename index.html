@@ -32,6 +32,27 @@
           <label for="email" id="email-label">What's your email address? <input id="email" name="email" type="email" required placeholder="Your email..."></label>
           <label for="number" id="number-label">What's your phone number? <input id="number" name="number" type="number" required min="10" max="12" placeholder="Your number..."></label>
         </fieldset>
+        <fieldset>
+          <label for="dropdown"> Which neighborhood are you starting from?
+            <select name="neighborhood-start-dropdown" id="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">Shaw</option>
+              <option value="2">U Street</option>
+            </select>
+          </label>
+          <label for="dropdown-2"> Which neighborhood are you going to?
+            <select name="neighborhood-start-dropdown" id="dropdown-2">
+              <option value="">(select one)</option>
+              <option value="1">Shaw</option>
+              <option value="2">U Street</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Account type (required)</legend>
+          <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="input-radio" value="member" />Capitol Bikeshare Member </label>
+          <label for="guest"><input id="guest" type="radio" name="account-type" class="input-radio" value="guest"/> Capitol Bikeshare Guest</label>
+        </fieldset>
       </form>
     </div>
     </div>
