@@ -15,7 +15,10 @@ fieldset {
   border-bottom: 3px solid #3b3b4f
 }
 
-input, select {
+input[type=text],
+input[type=email], 
+input[type=number], 
+select {
     margin: 10px auto;
     width: 100%;
     min-height: 2em;
@@ -23,12 +26,24 @@ input, select {
     
   }
 
-  .input-radio {
+input[type=radio] {
     display: inline-block;
     margin-right: 0.625rem;
     min-height: 1.25rem;
     min-width: 1.25rem;
 }
+
+.account_type {
+  width: 100%;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+
 
 /* body {
   width: 100%;
