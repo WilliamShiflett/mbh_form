@@ -48,11 +48,27 @@
             </select>
           </label>
         </fieldset>
-        <fieldset>
-          <legend>Account type (required)</legend>
-          <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="input-radio" value="member" />Capitol Bikeshare Member </label>
-          <label for="guest"><input id="guest" type="radio" name="account-type" class="input-radio" value="guest"/> Capitol Bikeshare Guest</label>
-        </fieldset>
+
+        <div class="form-group">
+          <fieldset>
+            <legend>Account type (required)</legend>
+            <label for="personal-account" class="account_type">
+              <input id="personal-account" type="radio" name="account-type" class="input-radio" value="member" />
+              Capitol Bikeshare Member
+            </label>
+            <label for="guest" class="account_type">
+              <input id="guest" type="radio" name="account-type" class="input-radio" value="guest"/>
+              Capitol Bikeshare Guest
+            </label>
+          </fieldset>
+        </div>
+        
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" class="inline" name="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+        <label for="updates">
+          <input id="updates" class="inline" name="updates" type="checkbox" required /> Send me updates about Maximum Bikelihood!
+        </label>
       </form>
     </div>
     </div>
