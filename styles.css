@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+p {
+  margin: 5px;
+}
+
+.header {
+  padding: 0;
+  margin-bottom: 0;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
@@ -16,13 +25,17 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 0px;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 20px 10px;
+  padding: 5px 10px;
 }
 
-.choice-one {
+.choices div {
+  margin: 0px;
+}
+
+.choice-station {
     width: 475px;
     height: 200px;
     background-color: #8f0401;
@@ -30,7 +43,7 @@ body {
     border-radius: 2rem;
 }
 
-.choice-two {
+.choice-neighborhood {
   width: 475px;
   height: 200px;
   background-color: red;
@@ -38,30 +51,18 @@ body {
   border-radius: 2rem;
 }
 
-.choice-three {
-  width: 475px;
-  height: 200px;
-  background-color: #f43b38;
-  margin: 20px auto;
-  border-radius: 2rem;
-}
-
-
 .choice-text {
   color: white;
-}
-.container {
-  width: 100%;
-  margin: 3.125rem auto 0 auto;
+  padding: 20px;
 }
 
-.header {
-  padding: 0 0.625rem;
-  margin-bottom: 1.875rem;
+.container {
+  width: 100%;
+  margin: 1.15rem auto 0 auto;
 }
 
 .text-center {
-  display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
 
@@ -69,5 +70,8 @@ body {
 
 .description {
   font-weight: 200;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.description span{
+  font-weight: bold;
 }
